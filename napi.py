@@ -21,7 +21,7 @@ for x, y in enumerate(articles):
     print(f'{x+1} {y["title"]}')
 
 # Choose which article to display more info about
-article_index = 2
+article_index = int(input("\nEnter the number of the article you want to view (1-9): ")) - 1
 selected_article = articles[article_index]
 
 # Display article details
